@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Tiozz Website
+  </h1>
+  <p>Welcome To Tiozz Website</p>
+</div>
+
+<div class="topnav">
+  <a href="#"></a>
+  <a href="#"></a>
+  <a href="#">
+  <a href="#" style="float:right"></a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>About This Website</h2>
+      <h5>This Website Create By Tio, May 28, 2023</h5>
+      <div><img src="Banner.png"height="100%" style="width:100%;"height="550" style="width: 1000px;"></div>
+      <p>I made this web because..</p>
+      <p>I just got bored and i made this web xD</p>
+    </div>
+    <div class="card">
+      <h2>My Classmate!</h2>
+      <h5>May 30, 2023</h5>
+      <div><img src="./me and my friends.png"height="100%" style="width:100%;"height="550" style="width: 1000px;"> </div>
+      <p>This is My Classmate!</p>
+      <p>I am 7 graders, im at 7.9 aka 7I</p>
+    </div>
+        <div class="card">
+          <h2>Game Post!</h2>
+          <h5>May 29, 2023</h5>
+          <div><img src="./Aizen 7star.png"height="100%" style="width:100%"height="300"> </div>
+          <div><img src="./Katakuri 7star.png"height="100%" style="width:100%"height="300"> </div>
+          <p>My Game Post!</p>
+          <p>So This is my game post, actually i played roblox, valorant, cs go, etc..</p>
+        </div>
+
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <img src="gojo.jpg" />
+      <p>Hi! I am Tio, i am 13 y.o</p>
+    </div>
+    <div class="card">
+      <h3>My ...</h3>
+      <div><img src="Irish.jpeg"height="100%" style="width:100%;"></div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Youtube:TiofilusEz</p>
+      <p><a href="https://www.youtube.com/channel/UCfovEYQdh83E1JeBb5Qlu4w">Visit My Youtube Channel!</a></p>
+      <p>Instagram:tiofilus007</p>
+      <p><a href="https://www.instagram.com/tiofilus007/">Visit My Instagram too!</a></p>
+    </div>
+    <div class="card">
+      <h3>My Hobby</h3>
+      <p>My Hobby is Basketball</p>
+      <p>My favorite nba player is:</p>
+      <div><img src="./Kyrie.jpg"height="100%" style="width:100%;"height="235"> </div>
+      <p>and</p>
+      <div><img src="./lebron.jpg"height="100%" style="width:100%;"height="210"> </div>
+    </div>
+    <div class="card">
+      <h3>My Favorite Anime Of All Time</h3>
+      <p>My favorite anime is:</p>
+      <div><img src="./bleach.jpg"height="100%" style="width:100%;"height="240"> </div>
+      <p>My Favorite Character from Bleach:</p>
+      <div><img src="./aizen.jpg"height="100%" style="width:100%;"height="180"> </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>I Think Thats It! Thank You!</h2>
+</div>
+
+</body>
+</html>
